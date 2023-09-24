@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    - name: "Include myorg.ansible_requirements"
+      ansible.builtin.include_role:
+        name: "myorg.ansible_requirements"

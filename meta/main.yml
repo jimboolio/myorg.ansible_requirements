@@ -1,0 +1,19 @@
+---
+galaxy_info:
+  role_name: ansible_a
+  author: Me
+  namespace: myorg
+  description: Hello
+
+  license: none
+
+  min_ansible_version: 2.15.2
+
+  platforms:
+    - name: EL
+      versions:
+        - "9"
+
+  galaxy_tags: []
+
+dependencies: []

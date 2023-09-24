@@ -1,0 +1,8 @@
+---
+# This roles file includes all roles needed for installing 
+# complete onecloud stack it also acts as a
+roles:
+  - src: git@github.com:jimboolio/this.shouldnot_be_installed.git
+    scm: git
+    version: master
+    name: this.shouldnot_be_installed
